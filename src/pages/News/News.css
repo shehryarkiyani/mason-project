@@ -1,0 +1,130 @@
+.News-section{
+    padding-top: 80px;
+    background: url(../../../public/images/Blurgradient1.svg);
+    background-position: top left;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.news-header{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 60px;
+    /* identical to box height, or 94% */
+    
+    text-align: center;
+    color: #111111;
+    margin-bottom: 30px;
+}
+.news-para-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.news-para{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    /* or 33px */
+  
+    text-align: center;
+    width: 795px;
+    color: #111111;
+    text-align: center;
+}
+.trending-card-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.trending-card{
+    border: 1px solid #E5E5E5;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 80%;
+}
+.trending-content{
+    display: flex;
+    flex-direction: column;
+}
+.trending-subtxt{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+
+text-transform: uppercase;
+
+background: linear-gradient(53.94deg, #FF5001 15.02%, #61091B 82.83%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+.trending-header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    /* or 58px */
+    
+    width: 500px;
+    color: #111111;
+}
+.trending-para{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 150%;
+/* or 28px */
+
+
+color: #111111;
+}
+.post-container{
+    margin-top: 80px;
+}
+.card{
+    background: none !important;
+    border: none;
+    margin-bottom: 20px;
+}
+.card-body{
+    padding-left: 0px;
+}
+@media(max-width:1350px){
+    .trending-header{
+        font-size: 30px;
+        width: 400px;
+    }
+}
+@media(max-width:991px){
+    .p-img{
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .t-txt{
+        order: 2;
+    }
+}
+@media(max-width:600px){
+    .news-header{
+        font-size: 30px;
+
+    }
+    .trending-header{
+        width: 100%;
+        font-size: 24px;
+    }
+    .news-para{
+        width: 100%;
+    }
+}

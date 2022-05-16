@@ -1,0 +1,134 @@
+.contact-container{
+    background: url(../../../public/images/Blurgradient1.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+.contact-heading{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 60px;
+/* identical to box height, or 94% */
+
+
+color: #111111;
+
+}
+.drop-message-container{
+    display: flex;
+    flex-direction: row;
+}
+.drop-message{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 120%;
+/* or 43px */
+margin-right: 10px;
+
+color: #111111;
+}
+.drop-message-txt{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+
+color: #111111;
+
+}
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+color: var(--primary) !important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+border-color: var(--primary) !important;
+}
+.contact-input-fields{
+    margin-top: 30px;
+}
+.contact-send-btn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 40px;
+
+
+
+width: 82%;
+
+color: white;
+
+background: #4B0082;
+border-radius: 12px;
+margin-top: 20px;
+}
+.grow-header{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 110%;
+/* or 62px */
+
+text-align: center;
+
+color: #111111;
+width: 846px;
+}
+.grow-heading-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.contact-plan-btn{
+    font-family: 'Helvetica';
+font-style: normal;
+
+font-size: 16px;
+line-height: 150%;
+
+
+text-align: center;
+
+padding: 10px 30px;
+background: #4B0082;
+border-radius: 12px;
+color: #FFFFFF;
+}
+.contact-plan-btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+@media(max-width:992px){
+    #Contact-img{
+        order: 1;
+    }
+    #Contact-Message{
+        order: 2;
+        justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .contact-input-fields{
+        width: 100% !important;
+    }
+}
+@media(max-width:550px){
+    .grow-header,.contact-heading,.drop-message{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,702 @@
+.Home-hero-section{
+    background-color: #F6F8FA;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Hero-heading{
+    width: 600px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 83px;
+
+color: #111111
+}
+.hero-text-container{
+    display: flex;
+    margin-top: 20px;
+}
+.hero-text{
+    margin-bottom: 0px;
+    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #111111;
+margin-right: 10px;
+}
+.hero-text span{
+    color: var(--primary);
+}
+.hero-input-container{
+    display: flex;
+    border-radius: 12px;
+    border: 1px solid gainsboro;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    background-color: white;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.hero-input-container input{
+    width: 30%;
+    border: none ;
+    padding: 0px 0px;
+    background-color: transparent;
+    outline: none;
+}
+.hero-input-container input:first-child{
+    border-right: 1px solid gainsboro !important;
+}
+.hero-btn-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.hero-works{
+    color: var(--primary);
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+}
+.playstore-btn{
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    outline: none;
+    border: none;
+
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+margin-left: 20px;
+border: 1px solid gainsboro;
+}
+.hero-show{
+    display: none;
+}
+.Home-financial-container{
+    padding-top: 40px;
+}
+.financial-text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.financial-sub-text{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+text-transform: uppercase;
+
+background: linear-gradient(53.94deg, #FF5001 15.02%, #61091B 82.83%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+.financial-header{
+    width: 432px;
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+/* or 120% */
+
+letter-spacing: -0.03em;
+
+color: #111111;
+}
+.financial-para{
+    width: 490px;
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: -0.02em;
+color: #111111;
+margin-top: 10px;
+}
+.financial-line{
+    width: 490px;
+height: 2px;
+margin-top: 20px;
+
+background: #C4C4C4;
+}
+.financial-tick-container{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 20px;
+}
+.financial-tick{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 30px;
+align-items: center;
+/* identical to box height, or 158% */
+
+letter-spacing: -0.02em;
+
+color: #111111;
+margin-bottom: 10px;
+}
+.Financial{
+    padding-top: 50px;
+}
+.financial-para-1{
+    width: 426px;
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 37px;
+letter-spacing: -0.02em;
+color: #111111;
+margin-top: 10px;
+}
+.Financial1{
+    padding-left: 40px;
+}
+.Home-benefit-section{
+    background: #F6F8FA;
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding-bottom: 70px;
+}
+.benefit-header{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 60px;
+color: #111111;
+text-align: center;
+margin-bottom: 20px;
+}
+.benefit-para{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+width: 802px;
+color: #263238;
+}
+.home-box img{
+    margin-bottom: 20px;
+}
+.home-box{
+    box-sizing: border-box;
+    width: 300px;
+    height: 289px;
+    background: #FFFFFF;
+border: 1px solid #C7D8DE;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+/* identical to box height, or 146% */
+margin-bottom: 20px;
+
+color: #111111;
+}
+.Home-joining-section{
+    padding-top: 70px;
+}
+.home-join-header{
+    margin-top: 10px;
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 74px;
+width: 401px;
+color: #111111;
+}
+.financial-tick1{
+    margin-bottom: 20px;
+}
+.home-better-header{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 34px;
+/* identical to box height, or 100% */
+
+text-align: center;
+color: #4B0082;
+
+}
+.home-better-container{
+    display: flex;
+    flex-direction: column;
+   
+}
+.home-better-container p{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height */
+
+
+color: #111111;
+}
+.better-box{
+    width: 320px;
+height: 400px;
+background: #4B0082;
+box-shadow: 20px 22px 24px rgba(75, 0, 130, 0.12);
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.better-box1{
+    background: #F6F8FA;
+}
+.better-box p{
+    padding-top: 20px;
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+text-align: center;
+width: 194px;
+color: white;
+margin-bottom: 30px;
+}
+.better-box1  p{
+    color: black;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.better-box img{
+    margin-top: 20px;
+    
+}
+.home-better-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.home-better-btn button{
+    padding: 10px 30px !important;
+}
+.Home-need-container{
+    background-color: #E5E5E5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.home-need-header{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 74px;
+text-align: center;
+color: #111111;
+padding-bottom: 40px;
+
+}
+.home-line-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home-line-container img{
+    width: 10%;
+}
+.home-line-container h1{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 80px;
+text-align: center;
+
+color: #4B0082;
+}
+.home-line-container p{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 35px;
+/* identical to box height, or 100% */
+color: #111111;
+
+}
+.home-need-img{
+  
+    padding-top: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+.home-need-paras{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 43px;
+margin-top: 200px;
+width: 216px;
+
+color: #111111;
+}
+.home-need-para-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-need-para-right{
+    text-align: right;
+}
+.Home-plan-container{
+    padding-top: 70px;
+}
+.Plan-header{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 74px;
+text-align: center;
+color: #111111;
+}
+.Plan-para{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 30px;
+text-align: center;
+color: #263238;
+margin-bottom: 50px;
+}
+.Plan-para span{
+    color: #FF5001 ;
+   
+}
+.plan-cards{
+    width: 370px;
+height: 600px;
+background-color: white;
+border-radius: 12px;
+border: 1px solid var(--primary);
+padding-bottom: 30px;
+}
+.plancard-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card-header-txt{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 120%;
+/* or 43px */
+
+margin-left: 10px;
+color: #111111;
+}
+.plancard-txt-data{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+color: #111111;
+}
+.plancard-txt-data span{
+    font-weight: bold;
+    margin-left: 5px ;
+    margin-right: 5px;
+}
+.plancard-txt-data div{
+    display: flex;
+    flex-direction: row;
+}
+.plancard-txt-data img{
+    margin-right: 10px;
+}
+.plancard-txt-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.plancard-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.plancard-t span{
+    display: inline;
+    margin: 0 !important;
+
+}
+.Home-additional-benefit-section{
+    margin-top: 70px;
+    padding-bottom: 80px;
+   
+}
+.additional-benefit-heading{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+/* or 128% */
+
+text-align: center;
+color: #4B0082;
+padding-bottom: 10px;
+}
+.additional-box{
+    border: 1px solid #C7D8DE;
+    background: #F6F8FA;
+
+height: 254px;
+border-radius: 34px;
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+padding-left: 30px;
+}
+.box-heading{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 120%;
+/* or 31px */
+
+
+/* Primary */
+
+color: #1D2130;
+}
+.add-sub-box{
+    width: 644px;
+height: 98px;
+left: 739px;
+top: 7608px;
+
+background: #FFFFFF;
+border: 1px solid #C7D8DE;
+border-radius: 24px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 10px;
+}
+.additional-box .row{
+    align-items: center;
+    margin-bottom: 10px;
+}
+.add-sub-box p{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 28px;
+
+color: #263238;
+}
+.add-sub-box p span{
+    color: #FF5001;
+}
+@media(max-width:1330px){
+    .Hero-heading{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .home-contact-btn{
+        padding: 10px 13px;
+    }
+    .playstore-btn{
+        padding: 10px 9px;
+        margin-left: 4px;
+    }
+    .hero-works{
+        margin-right: 10px;
+        font-size: 16px;
+    }
+}
+@media(max-width:1091px){
+    .hero-show{
+        display: flex;
+        flex-direction: column;
+    }
+    #Hero-Inputs,#Hero-Works{
+        display: none;
+    }
+    .Hero-heading{
+        text-align: center;
+    }
+    #My-Hero-Heading{
+        text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px
+    }
+}
+@media(max-width:991px){
+    .sm-box-center{
+        display: flex;
+    justify-content: center;
+    }
+    .hm-sm-interest{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .hm-sm-mybox{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .hm-sm-events{
+        
+       
+        align-items: center;
+    }
+    .r-image1{
+        order: 1;
+    }
+    .r-image2{
+        order: 2;
+    }
+    .r-image3{
+        order: 3;
+        margin-bottom: 50px;
+    }
+    .home-line-container img {
+        width: 4%;
+    }
+    .home-need-img{
+        padding-top: 10px;
+        justify-content: center;
+    }
+    .home-need-paras{
+        margin-top: 10px;
+    }
+    .home-need-para-container{
+        flex-direction: row;
+    }
+    .home-need-para-right,.home-need-paras{
+        text-align: center;
+    }
+    .hm-sm-plancards{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .add-sub-box{
+        width: 100%;
+        height: auto;
+        left: 0;
+        top: 0;
+    }
+}
+@media(max-width:700px){
+    .add-sub-box p{
+        font-size: 14px;
+    }
+    .benefit-para{
+        width: 100%;
+    }
+}
+@media(max-width:650px){
+    .Hero-heading,.home-join-header,.financial-header,.benefit-header,.home-need-header,.Plan-header{
+        font-size: 30px;
+    }
+    .home-join-header,.financial-header{
+        line-height: 44px;
+    width: 201px
+    }
+    .plan-cards{
+        width: 100%;
+    }
+    .card-header-txt{
+        font-size: 30px;
+    }
+    .home-line-container h1{
+        font-size: 50px;
+    }
+    .Hero-heading,.financial-para,.financial-para-1{
+        width: 100% !important;
+    }
+    .financial-tick img{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media(max-width:500px){
+    .hero-works {
+        margin-right: 10px;
+        font-size: 11px;
+    }
+    .playstore-btn{
+        font-size: 14px;
+    }
+    .box-heading{
+        font-size: 18px;
+    }
+}
