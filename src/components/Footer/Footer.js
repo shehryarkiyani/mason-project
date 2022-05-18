@@ -35,10 +35,10 @@ const Footer = () => {
             <div className='col-6'>
             <div className='footer-links-container'>
             <Link className='footer-link-top'to="/">Resources</Link>
-              <Link className='footer-link'to="/privacy">Terms & Conditions</Link>
+              <Link className='footer-link'to="/terms">Terms & Conditions</Link>
               <Link className='footer-link'to="/faqs">FAQs</Link>
               <Link className='footer-link'to="/contact">Contact Us</Link>
-              <Link className='footer-link'to="/">Privacy Policy</Link>
+              <Link className='footer-link'to="/privacy">Privacy Policy</Link>
               </div>
             </div>
           </div>
